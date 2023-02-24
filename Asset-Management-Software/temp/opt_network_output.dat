@@ -1,0 +1,4 @@
+file_for_varriables temp/variables 
+file_for_costs temp/costs 
+file_for_states temp/states 
+file_for_objectives temp/objectives 

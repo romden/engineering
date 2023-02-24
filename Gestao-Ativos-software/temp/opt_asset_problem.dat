@@ -1,0 +1,21 @@
+name_of_asset asset 
+number_of_principal_elements 1 
+principal_elements 1
+number_of_objectives 2 
+cost_reduction_rate 0.00 
+discount_rate 0.0500 
+time_horizon 10 
+number_of_samples 30 
+critical_state 5 
+number_of_components 1 
+
+
+#1 asset 
+number_of_actions 5 
+number_of_performance_indexes 1 
+critical_state 4 
+last_state 1.00 
+elapsed_time 0.00 
+file_containing_Q temp/asset_Q.dat 
+file_containing_action_effects temp/asset_effects.dat 
+file_containing_action_costs temp/asset_costs.dat 

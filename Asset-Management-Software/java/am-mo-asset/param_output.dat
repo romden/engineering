@@ -1,0 +1,5 @@
+ficheiro_output_acoes Output/actions
+ficheiro_output_estados Output/states
+ficheiro_output_custos Output/costs
+ficheiro_output_objetivos Output/objectives
+ficheiro_output_violacao_restricoes NA

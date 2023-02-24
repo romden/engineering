@@ -1,0 +1,306 @@
+problem_type 8 
+number_of_objectives 2 
+time_horizon 20 
+discount_rate 0.010000 
+number_of_asset_types 1 
+number_of_assets 50 
+
+#1 asset 
+file_containing_costs Temp/pavimento_1_costs.dat 
+file_containing_states Temp/pavimento_1_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#2 asset 
+file_containing_costs Temp/pavimento_2_costs.dat 
+file_containing_states Temp/pavimento_2_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#3 asset 
+file_containing_costs Temp/pavimento_3_costs.dat 
+file_containing_states Temp/pavimento_3_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#4 asset 
+file_containing_costs Temp/pavimento_4_costs.dat 
+file_containing_states Temp/pavimento_4_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#5 asset 
+file_containing_costs Temp/pavimento_5_costs.dat 
+file_containing_states Temp/pavimento_5_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#6 asset 
+file_containing_costs Temp/pavimento_6_costs.dat 
+file_containing_states Temp/pavimento_6_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#7 asset 
+file_containing_costs Temp/pavimento_7_costs.dat 
+file_containing_states Temp/pavimento_7_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#8 asset 
+file_containing_costs Temp/pavimento_8_costs.dat 
+file_containing_states Temp/pavimento_8_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#9 asset 
+file_containing_costs Temp/pavimento_9_costs.dat 
+file_containing_states Temp/pavimento_9_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#10 asset 
+file_containing_costs Temp/pavimento_10_costs.dat 
+file_containing_states Temp/pavimento_10_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#11 asset 
+file_containing_costs Temp/pavimento_11_costs.dat 
+file_containing_states Temp/pavimento_11_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#12 asset 
+file_containing_costs Temp/pavimento_12_costs.dat 
+file_containing_states Temp/pavimento_12_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#13 asset 
+file_containing_costs Temp/pavimento_13_costs.dat 
+file_containing_states Temp/pavimento_13_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#14 asset 
+file_containing_costs Temp/pavimento_14_costs.dat 
+file_containing_states Temp/pavimento_14_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#15 asset 
+file_containing_costs Temp/pavimento_15_costs.dat 
+file_containing_states Temp/pavimento_15_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#16 asset 
+file_containing_costs Temp/pavimento_16_costs.dat 
+file_containing_states Temp/pavimento_16_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#17 asset 
+file_containing_costs Temp/pavimento_17_costs.dat 
+file_containing_states Temp/pavimento_17_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#18 asset 
+file_containing_costs Temp/pavimento_18_costs.dat 
+file_containing_states Temp/pavimento_18_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#19 asset 
+file_containing_costs Temp/pavimento_19_costs.dat 
+file_containing_states Temp/pavimento_19_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#20 asset 
+file_containing_costs Temp/pavimento_20_costs.dat 
+file_containing_states Temp/pavimento_20_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#21 asset 
+file_containing_costs Temp/pavimento_21_costs.dat 
+file_containing_states Temp/pavimento_21_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#22 asset 
+file_containing_costs Temp/pavimento_22_costs.dat 
+file_containing_states Temp/pavimento_22_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#23 asset 
+file_containing_costs Temp/pavimento_23_costs.dat 
+file_containing_states Temp/pavimento_23_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#24 asset 
+file_containing_costs Temp/pavimento_24_costs.dat 
+file_containing_states Temp/pavimento_24_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#25 asset 
+file_containing_costs Temp/pavimento_25_costs.dat 
+file_containing_states Temp/pavimento_25_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#26 asset 
+file_containing_costs Temp/pavimento_26_costs.dat 
+file_containing_states Temp/pavimento_26_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#27 asset 
+file_containing_costs Temp/pavimento_27_costs.dat 
+file_containing_states Temp/pavimento_27_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#28 asset 
+file_containing_costs Temp/pavimento_28_costs.dat 
+file_containing_states Temp/pavimento_28_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#29 asset 
+file_containing_costs Temp/pavimento_29_costs.dat 
+file_containing_states Temp/pavimento_29_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#30 asset 
+file_containing_costs Temp/pavimento_30_costs.dat 
+file_containing_states Temp/pavimento_30_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#31 asset 
+file_containing_costs Temp/pavimento_31_costs.dat 
+file_containing_states Temp/pavimento_31_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#32 asset 
+file_containing_costs Temp/pavimento_32_costs.dat 
+file_containing_states Temp/pavimento_32_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#33 asset 
+file_containing_costs Temp/pavimento_33_costs.dat 
+file_containing_states Temp/pavimento_33_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#34 asset 
+file_containing_costs Temp/pavimento_34_costs.dat 
+file_containing_states Temp/pavimento_34_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#35 asset 
+file_containing_costs Temp/pavimento_35_costs.dat 
+file_containing_states Temp/pavimento_35_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#36 asset 
+file_containing_costs Temp/pavimento_36_costs.dat 
+file_containing_states Temp/pavimento_36_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#37 asset 
+file_containing_costs Temp/pavimento_37_costs.dat 
+file_containing_states Temp/pavimento_37_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#38 asset 
+file_containing_costs Temp/pavimento_38_costs.dat 
+file_containing_states Temp/pavimento_38_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#39 asset 
+file_containing_costs Temp/pavimento_39_costs.dat 
+file_containing_states Temp/pavimento_39_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#40 asset 
+file_containing_costs Temp/pavimento_40_costs.dat 
+file_containing_states Temp/pavimento_40_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#41 asset 
+file_containing_costs Temp/pavimento_41_costs.dat 
+file_containing_states Temp/pavimento_41_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#42 asset 
+file_containing_costs Temp/pavimento_42_costs.dat 
+file_containing_states Temp/pavimento_42_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#43 asset 
+file_containing_costs Temp/pavimento_43_costs.dat 
+file_containing_states Temp/pavimento_43_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#44 asset 
+file_containing_costs Temp/pavimento_44_costs.dat 
+file_containing_states Temp/pavimento_44_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#45 asset 
+file_containing_costs Temp/pavimento_45_costs.dat 
+file_containing_states Temp/pavimento_45_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#46 asset 
+file_containing_costs Temp/pavimento_46_costs.dat 
+file_containing_states Temp/pavimento_46_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#47 asset 
+file_containing_costs Temp/pavimento_47_costs.dat 
+file_containing_states Temp/pavimento_47_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#48 asset 
+file_containing_costs Temp/pavimento_48_costs.dat 
+file_containing_states Temp/pavimento_48_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#49 asset 
+file_containing_costs Temp/pavimento_49_costs.dat 
+file_containing_states Temp/pavimento_49_states.dat 
+number_of_alternatives 100 
+asset_type 1 
+
+#50 asset 
+file_containing_costs Temp/pavimento_50_costs.dat 
+file_containing_states Temp/pavimento_50_states.dat 
+number_of_alternatives 100 
+asset_type 1 

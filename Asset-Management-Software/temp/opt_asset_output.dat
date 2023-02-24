@@ -1,0 +1,5 @@
+ficheiro_output_acoes temp/actions 
+ficheiro_output_estados temp/states 
+ficheiro_output_custos temp/costs 
+ficheiro_output_objetivos temp/objectives 
+ficheiro_output_violacao_restricoes temp/cv 

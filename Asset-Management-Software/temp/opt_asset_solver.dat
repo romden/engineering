@@ -1,0 +1,8 @@
+crossover_probability_CR 1.00 
+mutation_probability_pm 0.0100 
+probability_for_mating_pool_delta 0.80 
+neighborhood_size_T 5 
+max_nr_of_replacements_nr 2 
+population_size_mu 100 
+stopping_criterion_maxGen 300 
+seed_for_moead 10000 

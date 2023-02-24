@@ -1,0 +1,24 @@
+problem_type 10 
+number_of_objectives 3 
+time_horizon 30 
+discount_rate 0.010000 
+number_of_asset_types 3 
+number_of_assets 3 
+
+#1 asset 
+file_containing_costs temp/asset_1_costs 
+file_containing_states temp/asset_1_states 
+number_of_alternatives 9 
+asset_type 1 
+
+#2 asset 
+file_containing_costs temp/asset_2_costs 
+file_containing_states temp/asset_2_states 
+number_of_alternatives 8 
+asset_type 2 
+
+#3 asset 
+file_containing_costs temp/asset_3_costs 
+file_containing_states temp/asset_3_states 
+number_of_alternatives 16 
+asset_type 3 

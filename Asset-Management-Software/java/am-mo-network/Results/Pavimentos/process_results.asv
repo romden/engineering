@@ -1,0 +1,105 @@
+clear
+clc
+
+%% plot pf
+% section_idx = 30;
+% time_horizon = [10 20 30];
+% 
+% colors = {'rp', 'bs', 'mv'};
+% h=figure;
+% j = 0;
+% for th = time_horizon
+%     filename = sprintf('Pavimento_%d/pavimento_%d_anos_%d.xlsx', section_idx, section_idx, th);
+%     M = xlsread(filename, 9, 'A2:B101');
+%     
+%     j = j+1;
+%     hold on
+%     if th==20 M(1)=3.08; end
+%     plot(M(:,1), M(:,2),  colors{j}, 'LineWidth', 1, 'MarkerSize', 6);
+% end
+% 
+% box
+% box ON
+% 
+% % axis settings
+% xlabel('GPI', 'FontSize', 20)
+% ylabel('cost', 'FontSize', 20)
+% axis([1 4 0 4e5])
+% 
+% % legend settings
+% h_legend = legend({'10 years' '20 years' '30 years'});
+% set(h_legend, 'FontSize', 20);
+% 
+% % axis settings
+% set(gca, 'XTick', [1 2 3 4]);
+% set(gca, 'XTickLabel', {'1' '2' '3' '4'});
+% set(gca, 'YTick', [0 1e5 2e5 3e5 4e5]);
+% % set(gca, 'YTickLabel', {'0' '100000' '200000' '300000' '400000'});
+% set(gca, 'FontSize', 20);
+% 
+% figName = 'pf_section';
+% saveas(h,figName,'fig');
+% saveas(h,[figName,'.eps'],'epsc');
+
+
+%% weights
+% H=99;
+% w=[0:H]';
+% w=[w H-sum(w,2)]/H;
+% disp(w)
+
+% indexes = {'gpi' 'iri' 'rut' 'crk' 'fri' 'fwd'};
+% section_idx = 30;
+% time_horizon = [10 20 30];
+% colors = {'rp', 'bs', 'gv', 'mo'};
+% for th = time_horizon %(1);
+%     filename = sprintf('Pavimento_%d/pavimento_%d_anos_%d.xlsx', section_idx, section_idx, th);
+%     
+%     for i = 1:numel(indexes)
+%         % read data
+%         switch th
+%             case 10
+%                 xlRanges = 'A2:J101';
+%             case 20
+%                 xlRanges = 'A2:T101';
+%             case 30
+%                 xlRanges = 'A2:AD101';
+%         end
+%         M = xlsread(filename, 1+i, xlRanges);
+%         
+%         % plot data
+%         h=figure;
+%         j = 0;
+%         for idx = [1 50 100]
+%             j = j+1;
+%             hold on
+%             plot(1:th, M(idx,:),  colors{j}, 'LineWidth', 2, 'MarkerSize', 8);
+%         end
+%         
+%         % plot settings
+%         % make box
+%         box ON
+%         
+%         % axis settings
+%         xlabel('time', 'FontSize', 20)
+%         ylabel(upper(indexes{i}), 'FontSize', 20)
+%         axis([1 th 1 4])
+%         
+%         % legend settings
+%         h_legend = legend({'weights (0 1)' 'weights (0.5 0.5)' 'weights (1 0)'});
+%         set(h_legend, 'FontSize', 16);
+%         
+%         % axis settings
+%         % set(gca, 'XTick', [1 2 3 4]);
+%         % set(gca, 'XTickLabel', {'1' '2' '3' '4'});
+%         set(gca, 'YTick', [1 2 3 4]);
+%         set(gca, 'YTickLabel', {'1' '2' '3' '4'});
+%         set(gca, 'FontSize', 20);
+%         
+%         
+%         % save plot
+%         figName = sprintf('%d_years_states_%s', th, indexes{i});
+%         saveas(h,figName,'fig');
+%         saveas(h,[figName,'.eps'],'epsc');
+%     end
+% end

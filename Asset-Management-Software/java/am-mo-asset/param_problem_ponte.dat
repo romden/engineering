@@ -1,0 +1,75 @@
+name_of_asset ponte
+number_of_principal_elements 3
+indexes_of_principal_elements 2 3 6
+number_of_objectives 2
+cost_reduction_rate 0.2
+discount_rate 0.01
+time_horizon 10
+number_of_samples 10
+critical_state 3
+number_of_components 6
+
+
+#1 aparelhos_apoio
+number_of_actions 3 
+number_of_performance_indexes 1 
+critical_state 5 
+last_state 1 
+elapsed_time 0 
+file_containing_Q input/obras_aparelhos_apoio_Q.dat 
+file_containing_action_effects input/obras_aparelhos_apoio_effects.dat 
+file_containing_action_costs input/obras_aparelhos_apoio_costs.dat 
+
+
+#2 apoios_intermedios
+number_of_actions 11 
+number_of_performance_indexes 1 
+critical_state 3 
+last_state 1 
+elapsed_time 0 
+file_containing_Q input/obras_apoios_intermedios_betao_armado_Q.dat 
+file_containing_action_effects input/obras_apoios_intermedios_betao_armado_effects.dat 
+file_containing_action_costs input/obras_apoios_intermedios_betao_armado_costs.dat 
+
+
+#3 encontros
+number_of_actions 10 
+number_of_performance_indexes 1 
+critical_state 3 
+last_state 1 
+elapsed_time 0 
+file_containing_Q input/obras_encontros_betao_armado_Q.dat 
+file_containing_action_effects input/obras_encontros_betao_armado_effects.dat 
+file_containing_action_costs input/obras_encontros_betao_armado_costs.dat 
+
+#4 guarda_corpos
+number_of_actions 6 
+number_of_performance_indexes 1
+critical_state 5
+last_state 1 
+elapsed_time 0 
+file_containing_Q input/obras_guarda_corpos_aco_Q.dat 
+file_containing_action_effects input/obras_guarda_corpos_aco_effects.dat 
+file_containing_action_costs input/obras_guarda_corpos_aco_costs.dat
+
+
+#5 juntas_dilatacao
+number_of_actions 8 
+number_of_performance_indexes 1
+critical_state 5 
+last_state 1 
+elapsed_time 0
+file_containing_Q input/obras_juntas_dilatacao_aco_Q.dat 
+file_containing_action_effects input/obras_juntas_dilatacao_aco_effects.dat 
+file_containing_action_costs input/obras_juntas_dilatacao_aco_costs.dat 
+
+
+#6 tabuleiro
+number_of_actions 11 
+number_of_performance_indexes 1 
+critical_state 3 
+last_state 1 
+elapsed_time 0 
+file_containing_Q input/obras_tabuleiro_betao_preesforcado_Q.dat 
+file_containing_action_effects input/obras_tabuleiro_betao_preesforcado_effects.dat 
+file_containing_action_costs input/obras_tabuleiro_betao_preesforcado_costs.dat 

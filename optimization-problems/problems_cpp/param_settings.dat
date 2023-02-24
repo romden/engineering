@@ -1,0 +1,6 @@
+crossover_probability_CR 0.15
+mutation_probability_pm 0.033333333333333
+mutation_distribution_index_etam 20.0
+selection_shape linear
+population_size_mu 300
+stopping_criterion_maxGen 500

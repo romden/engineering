@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\CEC2009">
+      <UniqueIdentifier>{3789bf1f-6b7e-4594-a419-4cd845c6c6b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ZDT">
+      <UniqueIdentifier>{db1db3ce-cac8-483c-90d6-e50269e70214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DTLZ">
+      <UniqueIdentifier>{108776ac-3fba-4129-9626-7c90aabd2040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\WFG">
+      <UniqueIdentifier>{a62a1130-378b-493e-a82c-44fc84c5775d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LZ09">
+      <UniqueIdentifier>{c2c37116-0adc-4ad1-8548-eb263c25bb07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LGZ">
+      <UniqueIdentifier>{902f9b46-54e1-47c5-b160-78c18884712c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CEC2007">
+      <UniqueIdentifier>{923f68d5-bc01-4123-8820-9f71afe49ad6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="problems\ZDT\ZDT.cpp">
+      <Filter>Header Files\ZDT</Filter>
+    </ClCompile>
+    <ClCompile Include="problems\DTLZ\DTLZ.cpp">
+      <Filter>Header Files\DTLZ</Filter>
+    </ClCompile>
+    <ClCompile Include="problems\WFG\ExampleProblems.cpp">
+      <Filter>Header Files\WFG</Filter>
+    </ClCompile>
+    <ClCompile Include="problems\WFG\ExampleShapes.cpp">
+      <Filter>Header Files\WFG</Filter>
+    </ClCompile>
+    <ClCompile Include="problems\WFG\ExampleTransitions.cpp">
+      <Filter>Header Files\WFG</Filter>
+    </ClCompile>
+    <ClCompile Include="problems\WFG\FrameworkFunctions.cpp">
+      <Filter>Header Files\WFG</Filter>
+    </ClCompile>
+    <ClCompile Include="problems\WFG\Misc.cpp">
+      <Filter>Header Files\WFG</Filter>
+    </ClCompile>
+    <ClCompile Include="problems\WFG\ShapeFunctions.cpp">
+      <Filter>Header Files\WFG</Filter>
+    </ClCompile>
+    <ClCompile Include="problems\WFG\TransFunctions.cpp">
+      <Filter>Header Files\WFG</Filter>
+    </ClCompile>
+    <ClCompile Include="problems\WFG\WFGTestSuite.cpp">
+      <Filter>Header Files\WFG</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="problems\CEC2009\CEC2009.cpp">
+      <Filter>Header Files\CEC2009</Filter>
+    </ClCompile>
+    <ClCompile Include="problems\LZ09\LZ09.cpp">
+      <Filter>Header Files\LZ09</Filter>
+    </ClCompile>
+    <ClCompile Include="problems\LGZ\LGZ.cpp">
+      <Filter>Header Files\LGZ</Filter>
+    </ClCompile>
+    <ClCompile Include="problems\CEC2007\CEC2007.cpp">
+      <Filter>Header Files\CEC2007</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="problems\ZDT\ZDT.h">
+      <Filter>Header Files\ZDT</Filter>
+    </ClInclude>
+    <ClInclude Include="problems\DTLZ\DTLZ.h">
+      <Filter>Header Files\DTLZ</Filter>
+    </ClInclude>
+    <ClInclude Include="problems\WFG\ExampleProblems.h">
+      <Filter>Header Files\WFG</Filter>
+    </ClInclude>
+    <ClInclude Include="problems\WFG\ExampleShapes.h">
+      <Filter>Header Files\WFG</Filter>
+    </ClInclude>
+    <ClInclude Include="problems\WFG\ExampleTransitions.h">
+      <Filter>Header Files\WFG</Filter>
+    </ClInclude>
+    <ClInclude Include="problems\WFG\FrameworkFunctions.h">
+      <Filter>Header Files\WFG</Filter>
+    </ClInclude>
+    <ClInclude Include="problems\WFG\Misc.h">
+      <Filter>Header Files\WFG</Filter>
+    </ClInclude>
+    <ClInclude Include="problems\WFG\ShapeFunctions.h">
+      <Filter>Header Files\WFG</Filter>
+    </ClInclude>
+    <ClInclude Include="problems\WFG\TransFunctions.h">
+      <Filter>Header Files\WFG</Filter>
+    </ClInclude>
+    <ClInclude Include="problems\WFG\WFGTestSuite.h">
+      <Filter>Header Files\WFG</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="problems\CEC2009\CEC2009.h">
+      <Filter>Header Files\CEC2009</Filter>
+    </ClInclude>
+    <ClInclude Include="problems\LZ09\LZ09.h">
+      <Filter>Header Files\LZ09</Filter>
+    </ClInclude>
+    <ClInclude Include="problems\LGZ\LGZ.h">
+      <Filter>Header Files\LGZ</Filter>
+    </ClInclude>
+    <ClInclude Include="problems\CEC2007\CEC2007.h">
+      <Filter>Header Files\CEC2007</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

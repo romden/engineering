@@ -1,0 +1,1 @@
+java -jar dist/am-model.jar taludes.dat 1 5 365 Q.dat
